@@ -39,6 +39,7 @@ button {
   pointer-events: none;
   opacity: 0%;
   text-align: center;
+  transition: opacity 500ms;
 }
 .popup-modal p {
   margin-bottom: 24px
@@ -61,3 +62,6 @@ button {
   opacity: 30%;
 }
 
+button :after {
+  background-color: aquamarine;
+}
